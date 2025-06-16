@@ -1,3 +1,5 @@
+package Vorbereitungstest_2B_Loesung;
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 

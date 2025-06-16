@@ -1,3 +1,5 @@
+package Vorbereitungstest_2B;
+
 /**
  * Leaf node of a mobile. The actual decoration of a mobile.
  * A {@code Star} has a specified weight, that can not be changed after

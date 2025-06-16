@@ -1,3 +1,5 @@
+package Vorbereitungstest_2B_Loesung;
+
 /**
  * A {@code BalancedStick} has a specified stick weight, that can not be changed after
  * initialisation. On the left and right end of the stick another mobile

@@ -1,4 +1,4 @@
-// Bitte beantworten Sie die Multiple-Choice-Fragen (maximal 25 Punkte, 1 Punkt pro 'Choice').
+package Vorbereitungstest_2B;// Bitte beantworten Sie die Multiple-Choice-Fragen (maximal 25 Punkte, 1 Punkt pro 'Choice').
 
 public class MCTest2 {
 

@@ -1,3 +1,5 @@
+package Vorbereitungstest_2B;
+
 /**
  * Leaf node of a mobile. The actual decoration of a mobile.
  * Please, do not change this interface definition!

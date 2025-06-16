@@ -1,3 +1,5 @@
+package Vorbereitungstest_2B_Loesung;
+
 /**
  * A collection of {@code Star} objects. The elements have no specified order.
  * Please, do not change this interface definition!

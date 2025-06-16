@@ -45,22 +45,22 @@ Gesamtgewicht des Mobiles ist 40.
 
 Die für diesen Test relevanten Dateien sind:
 
-* [ApplicationTest2.java](../src/ApplicationTest2.java)
-* [MCTest2.java](../src/MCTest2.java)
-* [Mobile.java](../src/Mobile.java)
-* [Decoration.java](../src/Decoration.java)
-* [Star.java](../src/Star.java)
-* [BalancedStick.java](../src/BalancedStick.java)
-* [StarCollection.java](../src/StarCollection.java)
-* [StarIterable.java](../src/StarIterable.java)
-* [StarIterator.java](../src/StarIterator.java)
-* [UnbalancedException.java](../src/UnbalancedException.java)
+* [ApplicationTest2.java](../ApplicationTest2.java)
+* [MCTest2.java](../MCTest2.java)
+* [Mobile.java](../Mobile.java)
+* [Decoration.java](../Decoration.java)
+* [Star.java](../Star.java)
+* [BalancedStick.java](../BalancedStick.java)
+* [StarCollection.java](../StarCollection.java)
+* [StarIterable.java](../StarIterable.java)
+* [StarIterator.java](../StarIterator.java)
+* [UnbalancedException.java](../UnbalancedException.java)
 
 Im Praxisteil des Tests sollen die hier aufgelisteten Dateien bearbeitet werden:
 
-* [Star.java](../src/Star.java)
-* [BalancedStick.java](../src/BalancedStick.java)
-* [UnbalancedException.java](../src/UnbalancedException.java)
+* [Star.java](../Star.java)
+* [BalancedStick.java](../BalancedStick.java)
+* [UnbalancedException.java](../UnbalancedException.java)
 
 ### Teilaufgabe 1 (maximal 25 Punkte)
 
@@ -72,13 +72,13 @@ verändert wurden; ohne Fehler werden Ihre Antworten auf die Fragen aufgelistet.
 ### Teilaufgabe 2 (maximal 75 Punkte)
 
 Lösen Sie den Praxisteil. Vervollständigen Sie dazu die Klassen 
-[BalancedStick.java](../src/BalancedStick.java), [Star.java](../src/Star.java) und 
-[UnbalancedException.java](../src/UnbalancedException.java) 
+[BalancedStick.java](../BalancedStick.java), [Star.java](../Star.java) und 
+[UnbalancedException.java](../UnbalancedException.java) 
 gemäß der in den Spezifikationen in den entsprechenden Dateien.
 
 English translation: Solve the practical programming part. Complete the classes
-[BalancedStick.java](../src/BalancedStick.java),
-[Star.java](../src/Star.java) and [UnbalancedException.java](../src/UnbalancedException.java) 
+[BalancedStick.java](../BalancedStick.java),
+[Star.java](../Star.java) and [UnbalancedException.java](../UnbalancedException.java) 
 according to the specifications given in their respective files.
 
 Vervollständigen Sie die Klassen in den oben aufgelisteten Dateien bitte wie in den Kommentaren

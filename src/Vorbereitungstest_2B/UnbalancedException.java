@@ -1,3 +1,5 @@
+package Vorbereitungstest_2B;
+
 /**
  * Exception thrown when a mobile is unbalanced.
  */

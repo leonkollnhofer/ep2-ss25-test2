@@ -1,3 +1,5 @@
+package Vorbereitungstest_2B;
+
 /**
  * An object with a method that returns a {@link StarIterator}.
  * Please, do not change this interface definition!

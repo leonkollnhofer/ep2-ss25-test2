@@ -1,3 +1,5 @@
+package Vorbereitungstest_2B_Loesung;
+
 /**
  * A mobile is a hanging room decoration consisting of sticks on whose left and right ends
  * further mobiles are attached (recursive structure). The actual decorations (e.g. stars) are
