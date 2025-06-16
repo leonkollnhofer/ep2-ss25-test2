@@ -10,4 +10,4 @@ This repository contains the code and the solutions to some EP2 test problems. S
 - On request of the EP2 team this repository may be deleted anytime.
 
 # Notes
-To report an error in these implementaitons please create an `Issue`.
+To report an error in these implementaitons please create an [Issue](https://github.com/leonkollnhofer/ep2-ss25-test2/issues).
