@@ -24,7 +24,6 @@ public class ApplicationTest2 {
         //              *     *
         //              3     3
 
-        /* TODO: uncomment this block.
         try {
             Star m1 = new Star(7);
             BalancedStick m2 = new BalancedStick(1, new Star(3), new Star(3));
@@ -118,7 +117,6 @@ public class ApplicationTest2 {
             System.out.println("FAIL! This message should not be printed:");
             System.out.println(e.getMessage());
         }
-        // TODO: end of block to uncomment. */
     }
 
 

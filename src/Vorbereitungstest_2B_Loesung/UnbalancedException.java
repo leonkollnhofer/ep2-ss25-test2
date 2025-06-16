@@ -6,4 +6,7 @@ package Vorbereitungstest_2B_Loesung;
 public class UnbalancedException extends Exception {
 
     //TODO: define missing parts of this class.
+    public UnbalancedException(String message) {
+        super(message);
+    }
 }
