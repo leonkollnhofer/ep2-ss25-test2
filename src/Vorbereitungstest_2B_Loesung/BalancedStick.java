@@ -68,7 +68,16 @@ public class BalancedStick implements Mobile // TODO: activate clause.
 
         // TODO: implement method.
         if(toReplace.getWeight() != replaceWith.getWeight()) {
-            throw new UnbalancedException("Replacement unbalanced (left " + left.getWeight() + " - right " + right.getWeight() + ")");
+            int leftWeight = left.getWeight();
+            int rightWeight = right.getWeight();
+
+            if(left.equals(toReplace)) {
+                leftWeight += replaceWith.getWeight() - toReplace.getWeight();
+            }else if (right.equals(toReplace)) {
+                rightWeight += replaceWith.getWeight() - toReplace.getWeight();
+            }
+
+            throw new UnbalancedException("Replacement unbalanced (left " + leftWeight + " - right " + rightWeight + ")");
         }
 
         if(left.equals(toReplace)) {

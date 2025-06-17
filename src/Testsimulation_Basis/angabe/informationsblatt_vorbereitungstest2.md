@@ -44,18 +44,18 @@ und Kugeln (`o`) als Dekorationen. Die Zahlen stellen die Gewichte der Komponent
 Gesamtgewicht des Mobiles ist 40. 
 
 ```txt
-                       |
-                +------5------+----+
-                |             |    |
-       +--------2--+--+       *    o
-       |           |  |       12   5
-       |           |  o
-       *           |  2
-       7           |
-                +--1--+
-                |     |
-                *     *
-                3     3
+*                       |
+*                +------5------+----+
+*                |             |    |
+*       +--------2--+--+       *    o
+*       |           |  |       12   5
+*       |           |  o
+*       *           |  2
+*       7           |
+*                +--1--+
+*                |     |
+*                *     *
+*                3     3
 ```
 
 ## Aufgabenstellung

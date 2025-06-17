@@ -1,15 +1,6 @@
-package Vorbereitungstest_2B;
+package Testsimulation_Basis;
 
-import Testsimulation_Basis.Ball;
-import Vorbereitungstest_2B_Loesung.BalancedStick;
-import Vorbereitungstest_2B_Loesung.Mobile;
-import Vorbereitungstest_2B_Loesung.Star;
-import Vorbereitungstest_2B_Loesung.StarCollection;
-import Vorbereitungstest_2B_Loesung.StarIterator;
-import Vorbereitungstest_2B_Loesung.UnbalancedException;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -24,32 +15,33 @@ public class ApplicationTest2 {
      */
     public static void main(String[] args) {
 
-    //                       |
-    //                +------5------+----+
-    //                |             |    |
-    //       +--------2--+--+       *    o
-    //       |           |  |       12   5
-    //       |           |  o
-    //       *           |  2
-    //       7           |
-    //                +--1--+
-    //                |     |
-    //                *     *
-    //                3     3
+        //                       |
+        //                +------5------+----+
+        //                |             |    |
+        //       +--------2--+--+       *    o
+        //       |           |  |       12   5
+        //       |           |  o
+        //       *           |  2
+        //       7           |
+        //                +--1--+
+        //                |     |
+        //                *     *
+        //                3     3
 
+        /* TODO: uncomment this block.
         try {
-            Vorbereitungstest_2B_Loesung.Star m1 = new Vorbereitungstest_2B_Loesung.Star(7);
-            Vorbereitungstest_2B_Loesung.BalancedStick m2 = new Vorbereitungstest_2B_Loesung.BalancedStick(1, new Vorbereitungstest_2B_Loesung.Star(3), new Vorbereitungstest_2B_Loesung.Star(3));
+            Star m1 = new Star(7);
+            BalancedStick m2 = new BalancedStick(1, new Star(3), new Star(3));
 
-            Vorbereitungstest_2B_Loesung.BalancedStick m3 = new Vorbereitungstest_2B_Loesung.BalancedStick(2, m1, m2);
+            BalancedStick m3 = new BalancedStick(2, m1, m2);
 
-            Vorbereitungstest_2B_Loesung.Star m4 = new Vorbereitungstest_2B_Loesung.Star(16);
+            Star m4 = new Star(16);
 
             Mobile mobile1, mobile2, mobile3;
-            mobile1 = new Vorbereitungstest_2B_Loesung.BalancedStick(2, m3, m4);
+            mobile1 = new BalancedStick(2, m3, m4);
 
-            mobile2 = new Vorbereitungstest_2B_Loesung.BalancedStick(2, m4, new Vorbereitungstest_2B_Loesung.BalancedStick(2, m2, m1));
-            mobile3 = new Vorbereitungstest_2B_Loesung.BalancedStick(2, m4, new Vorbereitungstest_2B_Loesung.BalancedStick(2, new Vorbereitungstest_2B_Loesung.BalancedStick(3, new Vorbereitungstest_2B_Loesung.Star(2), new Vorbereitungstest_2B_Loesung.Star(2)), m1));
+            mobile2 = new BalancedStick(2, m4, new BalancedStick(2, m2, m1));
+            mobile3 = new BalancedStick(2, m4, new BalancedStick(2, new BalancedStick(3, new Star(2), new Star(2)), m1));
 
             System.out.println("Test 1: 'getWeight'");
             testValue(m1.getWeight(), 7);
@@ -63,12 +55,12 @@ public class ApplicationTest2 {
             System.out.println("\nTest 3: 'equals'");
             testEquals(mobile1, mobile2);
             testEquals(mobile2.equals(mobile3), false);
-            testEquals(m3, new Vorbereitungstest_2B_Loesung.BalancedStick(2, m2, m1));
+            testEquals(m3, new BalancedStick(2, m2, m1));
             testEquals(m3.equals(m2), false);
-            testEquals(m3.hashCode() == new Vorbereitungstest_2B_Loesung.BalancedStick(2, m2, m1).hashCode(), true);
+            testEquals(m3.hashCode() == new BalancedStick(2, m2, m1).hashCode(), true);
 
             System.out.println("\nTest 4: 'iterator'");
-            Vorbereitungstest_2B_Loesung.StarIterator iter = mobile1.iterator();
+            StarIterator iter = mobile1.iterator();
             StringBuilder sb = new StringBuilder();
             while (iter.hasNext()) {
                 sb.append(iter.next());
@@ -93,7 +85,7 @@ public class ApplicationTest2 {
             StarCollection sc = mobile1.getStarCollection();
             testEquals(sc.contains(m1), true);
             testEquals(sc.contains(m4), true);
-            testEquals(sc.contains(new Vorbereitungstest_2B_Loesung.Star(m1.getWeight())), false);
+            testEquals(sc.contains(new Star(m1.getWeight())), false);
             m3.replace(m1, new Star(7));
             testEquals(sc.contains(m1), false);
 
@@ -122,7 +114,7 @@ public class ApplicationTest2 {
                 mobile2 = new BalancedStick(1, m2, m4); // unbalanced! -> Exception
                 System.out.println("FAIL! This message should not be printed!");
 
-            } catch (Vorbereitungstest_2B_Loesung.UnbalancedException e) {
+            } catch (UnbalancedException e) {
                 testEquals(e.getMessage(), "Stick unbalanced (left 7 - right 16)");
 
             }
@@ -130,6 +122,7 @@ public class ApplicationTest2 {
             System.out.println("FAIL! This message should not be printed:");
             System.out.println(e.getMessage());
         }
+        // TODO: end of block to uncomment. */
     }
 
 
@@ -150,3 +143,4 @@ public class ApplicationTest2 {
         }
     }
 }
+
